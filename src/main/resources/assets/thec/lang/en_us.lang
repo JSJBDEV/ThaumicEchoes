@@ -1,0 +1,31 @@
+#tab
+itemGroup.thec=Thaumic Echoes
+
+#items
+item.ichor.name=Ichor
+item.ichorium.name=Ichorium
+item.ichor_pickaxe.name=Ichorium Pickaxe
+item.ichor_shovel.name=Ichorium Shovel
+item.ichor_axe.name=Ichorium Axe
+item.ichor_sword.name=Ichorium Sword
+item.item_bhc.name=Black Hole Charm
+item.ultradensegem.name=Ultra Dense Gem
+item.ichor_cap.name=Ichorium Cap
+item.ichor_cloth.name=Ichorcloth
+item.ichor_rod.name=Ichorcloth Strapped Silverwood Rod
+
+#blocks
+tile.eladder.name=Ethereal Ladder Block
+
+#researches
+research.thec:ichor.title=[TEcho] Ichor
+research.thec:ichorium.title=[TEcho] Ichorium
+research.thec:eladder.title=[TEcho] Ethereal Ladder Block
+research.thec:ichorcloth.title=[TEcho] Ichorcloth
+research.thec:blackhole.title= [TEcho] Void Hole Theory
+
+research.thec:ichor.desc=ichor; "the liquid which flows through the veins of the gods" is now a reality..a mortals to obtain. the material you have created seems to both exude great heat but also freeze your hands, its power...could be infinite
+research.thec:ichorium.desc=so now you have imbued thaumium with your "god-blood", what you have created is...startling. the metal seems unfathomably hard and very deeply imbued with raw magic, what otherworldly tools could you make with this?
+research.thec:eladder.desc=How convenient; you have invented a contraption that, when right clicked, will transport on top of it. You reckon there is room for improvement however.
+research.thec:ichorcloth.desc=Not only does your new "ultimate" material work together with metal, it also works with fabric. allowing you to look classy but also have the protection of the gods themselves; if you believe that of course.
+research.thec:blackhole.desc=Ah, the void, many times bigger then the overworld itself but yet dangerous and all consuming. You have found out a way to incorporate the void into your everyday life. That eldritch must be getting to you.

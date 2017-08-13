@@ -1,0 +1,16 @@
+[
+{
+  "modid": "thec",
+  "name": "Thaumic Echoes",
+  "description": "A spiritual succesor to Thamic Tinkerer made for pengu's lost thaumaturgy",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Acrogenous A.K.A acrominer"],
+  "credits": "apengu for making lost thaumaturgy and the Thaumic Tinkerer KAMI people (textures and ideas)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
