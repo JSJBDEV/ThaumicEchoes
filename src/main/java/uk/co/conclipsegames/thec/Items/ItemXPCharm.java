@@ -14,26 +14,15 @@ import uk.co.conclipsegames.thec.util.Helper;
 /**
  * Created by James on 16/08/2017.
  */
-public class ItemXPCharm extends Item implements ItemModelProvider{
+public class ItemXPCharm extends Item {
     protected String name;
     int xp;
 
     public ItemXPCharm(String name) {
         this.name = name;
         setUnlocalizedName(name);
-        setRegistryName(name);
     }
-    @Override
-    public void registerItemModel(Item item) {
-        thec.proxy.registerItemRenderer(this, 0, name);
-    }
-
-    @Override
-    public ItemXPCharm setCreativeTab(CreativeTabs tab) {
-        super.setCreativeTab(tab);
-        return this;
-    }
-
+    
     @Override
     public ActionResult<ItemStack> onItemRightClick(World p_onItemRightClick_1_, EntityPlayer player, EnumHand hand) {
         if(player.isSneaking()) {

@@ -19,7 +19,7 @@ import uk.co.conclipsegames.thec.util.Helper;
 /**
  * Created by James on 06/08/2017.
  */
-public class ItemPickaxe extends net.minecraft.item.ItemPickaxe implements ItemModelProvider {
+public class ItemPickaxe extends net.minecraft.item.ItemPickaxe {
     private String name;
     private int aoe = 1;
 
@@ -28,17 +28,6 @@ public class ItemPickaxe extends net.minecraft.item.ItemPickaxe implements ItemM
         setRegistryName(name);
         setUnlocalizedName(name);
         this.name = name;
-    }
-
-    @Override
-    public void registerItemModel(Item item) {
-        thec.proxy.registerItemRenderer(this, 0, name);
-    }
-
-    @Override
-    public ItemPickaxe setCreativeTab(CreativeTabs tab) {
-        super.setCreativeTab(tab);
-        return this;
     }
 
     @Override

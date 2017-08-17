@@ -24,22 +24,11 @@ public class EtherealLadder extends Block {
         this.name = name;
         setHardness(1f);
         setUnlocalizedName(name);
-        setRegistryName(name);
-    }
-
-    public void registerItemModel(ItemBlock itemBlock) {
-        thec.proxy.registerItemRenderer(itemBlock, 0, name);
     }
 
     @Override
     public boolean onBlockActivated(World p_onBlockActivated_1_, BlockPos block, IBlockState p_onBlockActivated_3_, EntityPlayer player, EnumHand p_onBlockActivated_5_, EnumFacing p_onBlockActivated_6_, float p_onBlockActivated_7_, float p_onBlockActivated_8_, float p_onBlockActivated_9_) {
         player.setPosition(block.getX()+0.5,block.getY()+1,block.getZ()+0.5);
         return super.onBlockActivated(p_onBlockActivated_1_, block, p_onBlockActivated_3_, player, p_onBlockActivated_5_, p_onBlockActivated_6_, p_onBlockActivated_7_, p_onBlockActivated_8_, p_onBlockActivated_9_);
-    }
-
-    @Override
-    public EtherealLadder setCreativeTab(CreativeTabs tab) {
-        super.setCreativeTab(tab);
-        return this;
     }
 }

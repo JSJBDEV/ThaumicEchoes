@@ -53,6 +53,7 @@ public class Helper {
         consumeItem(itemName,meta,ignoreMeta,player,removeCount);
         player.inventory.addItemStackToInventory(new ItemStack(ModItems.bhc));
     }
+    
     public static void changeTag(ItemStack stack, String tagName, int value)
     {
         NBTTagCompound nbt;
@@ -83,6 +84,7 @@ public class Helper {
 
         stack.setTagCompound(nbt);
     }
+    
     public static void changeBoolTag(ItemStack stack, String tagName, Boolean value)
     {
         NBTTagCompound nbt;
@@ -106,5 +108,4 @@ public class Helper {
 
         stack.setTagCompound(nbt);
     }
-
 }

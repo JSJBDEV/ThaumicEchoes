@@ -22,26 +22,14 @@ import java.util.List;
 /**
  * Created by James on 14/08/2017.
  */
-public class ItemSceptre extends Item implements ItemModelProvider {
+public class ItemSceptre extends Item {
     protected String name;
     int SceptreType;
 
     public ItemSceptre(String name) {
         this.name = name;
         setUnlocalizedName(name);
-        setRegistryName(name);
         setMaxDamage(200);
-
-    }
-    @Override
-    public void registerItemModel(Item item) {
-        thec.proxy.registerItemRenderer(this, 0, name);
-    }
-
-    @Override
-    public ItemSceptre setCreativeTab(CreativeTabs tab) {
-        super.setCreativeTab(tab);
-        return this;
     }
 
     @Override
@@ -75,9 +63,9 @@ public class ItemSceptre extends Item implements ItemModelProvider {
         {
             Vec3d target = player.getLookVec().add(player.getPositionVector());
 
-            player.motionX = (target.xCoord - player.posX) * 3F;
-            player.motionY = (target.yCoord - player.posY) * 2F;
-            player.motionZ = (target.zCoord - player.posZ) * 3F;
+            player.motionX = (target.x - player.posX) * 3F;
+            player.motionY = (target.y - player.posY) * 2F;
+            player.motionZ = (target.z - player.posZ) * 3F;
             player.fallDistance = 0;
 
         }

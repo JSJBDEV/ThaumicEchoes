@@ -1,4 +1,4 @@
-package uk.co.conclipsegames.thec.thaum;
+package uk.co.conclipsegames.thec.thaum.wands;
 
 import com.pengu.lostthaumaturgy.api.wand.WandCap;
 import net.minecraft.item.ItemStack;

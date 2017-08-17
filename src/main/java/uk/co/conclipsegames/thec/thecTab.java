@@ -8,14 +8,12 @@ import uk.co.conclipsegames.thec.Items.ModItems;
  * Created by James on 06/08/2017.
  */
 public class thecTab extends CreativeTabs {
-    public thecTab() {
-        super(thec.modId);
-    }
+	public thecTab() {
+		super(thec.modId);
+	}
 
-    @Override
-    public ItemStack getTabIconItem() {
-        return new ItemStack(ModItems.ichor);
-    }
-
-
+	@Override
+	public ItemStack getTabIconItem() {
+		return new ItemStack(ModItems.ichor);
+	}
 }
