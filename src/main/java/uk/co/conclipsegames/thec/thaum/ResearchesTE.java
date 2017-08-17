@@ -19,7 +19,9 @@ public class ResearchesTE {
         ichorium = new Research(thec.modId+":ichorium",90,Research.CATEGORY_ELDRITCH).setColor(0xf48042).setIcon(new ItemStack(ModItems.ichorium)),
         eladder = new Research(thec.modId+":eladder",30,Research.CATEGORY_BASICS).setColor(0x7c3b06).setIcon(new ItemStack(ModBlocks.blockELadder)),
         ichorcloth = new Research(thec.modId+":ichorcloth",90,Research.CATEGORY_ELDRITCH).setColor(0xf4a742).setIcon(new ItemStack(ModItems.ichorcloth)),
-        blackhole = new Research(thec.modId+":blackhole",40,Research.CATEGORY_ELDRITCH).setColor(0x2f0b68).setIcon(new ItemStack(ModItems.bhc));
+        blackhole = new Research(thec.modId+":blackhole",40,Research.CATEGORY_ELDRITCH).setColor(0x2f0b68).setIcon(new ItemStack(ModItems.bhc)),
+        sceptre = new Research(thec.modId+":sceptre",20,Research.CATEGORY_THAUMATURGY).setColor(0x879645).setIcon(new ItemStack(ModItems.sceptreDislocation)),
+        xpstore = new Research(thec.modId+":xpstore",20,Research.CATEGORY_THAUMATURGY).setColor(0x54ff00).setIcon(new ItemStack(ModItems.xpcharm));
 
     public static void registerResearches()
     {

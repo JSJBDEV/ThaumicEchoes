@@ -4,7 +4,9 @@ package uk.co.conclipsegames.thec;
  * Created by James on 06/08/2017.
  */
 
+import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -65,6 +67,6 @@ public class thec {
 
     public static final thecTab creativeTab = new thecTab();
 
-    public static final Item.ToolMaterial ichoriumToolMaterial = EnumHelper.addToolMaterial("ICHORIUM", 20, 9999, 200, 20, 30);
-    //public static final ItemArmor.ArmorMaterial ichorclothArmorMaterial = EnumHelper.addArmorMaterial("ICHORCLOTH", modId + ":ichor_cloth", 1500, new int[]{6, 10, 15, 6}, 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 5.0F);
+    public static final Item.ToolMaterial ichoriumToolMaterial = EnumHelper.addToolMaterial("ICHORIUM", 20, 9999, 10, 20, 30);
+    public static final ItemArmor.ArmorMaterial ichorclothArmorMaterial = EnumHelper.addArmorMaterial("ICHORCLOTH", modId + ":ichor", 1500, new int[]{6, 10, 15, 6}, 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 5.0F);
 }

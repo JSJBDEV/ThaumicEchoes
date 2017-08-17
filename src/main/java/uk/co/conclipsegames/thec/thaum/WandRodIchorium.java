@@ -30,7 +30,7 @@ public class WandRodIchorium extends WandRod {
     @Override
     public String getRodTexture()
     {
-        return thec.modId + ":items/ichor_rod";
+        return thec.modId + ":items/rod_ichor_mat";
     }
 
     @Override

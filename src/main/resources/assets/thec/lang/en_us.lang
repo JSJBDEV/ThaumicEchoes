@@ -8,11 +8,22 @@ item.ichor_pickaxe.name=Ichorium Pickaxe
 item.ichor_shovel.name=Ichorium Shovel
 item.ichor_axe.name=Ichorium Axe
 item.ichor_sword.name=Ichorium Sword
-item.item_bhc.name=Black Hole Charm
-item.ultradensegem.name=Ultra Dense Gem
 item.ichor_cap.name=Ichorium Cap
 item.ichor_cloth.name=Ichorcloth
 item.ichor_rod.name=Ichorcloth Strapped Silverwood Rod
+item.sceptre_d.name=Sceptre of Dislocation
+item.sceptre_u.name=Sceptre of Uprising
+item.ichor_helmet.name=Ichorcloth Cowl
+item.ichor_chest.name=Ichorcloth Robes
+item.ichor_leggings.name=Ichorcloth Grieves
+item.ichor_boots.name=Ichorcloth Footfalls
+
+wand.rod.ichorcloth=Ichorcloth Strapped Silverwood
+wand.cap.ichorium=Ichorium
+
+item.item_bhc.name=Black Hole Charm
+item.ultradensegem.name=Ultra Dense Gem
+item.xpcharm.name=Charm Of XP Storage
 
 #blocks
 tile.eladder.name=Ethereal Ladder Block
@@ -22,10 +33,14 @@ research.thec:ichor.title=[TEcho] Ichor
 research.thec:ichorium.title=[TEcho] Ichorium
 research.thec:eladder.title=[TEcho] Ethereal Ladder Block
 research.thec:ichorcloth.title=[TEcho] Ichorcloth
-research.thec:blackhole.title= [TEcho] Void Hole Theory
+research.thec:blackhole.title=[TEcho] Void Hole Theory
+research.thec:sceptre.title=[TEcho] Sceptres
+research.thec:xpstore.title=[TEcho] XP Storage
 
 research.thec:ichor.desc=ichor; "the liquid which flows through the veins of the gods" is now a reality..a mortals to obtain. the material you have created seems to both exude great heat but also freeze your hands, its power...could be infinite
 research.thec:ichorium.desc=so now you have imbued thaumium with your "god-blood", what you have created is...startling. the metal seems unfathomably hard and very deeply imbued with raw magic, what otherworldly tools could you make with this?
 research.thec:eladder.desc=How convenient; you have invented a contraption that, when right clicked, will transport on top of it. You reckon there is room for improvement however.
 research.thec:ichorcloth.desc=Not only does your new "ultimate" material work together with metal, it also works with fabric. allowing you to look classy but also have the protection of the gods themselves; if you believe that of course.
 research.thec:blackhole.desc=Ah, the void, many times bigger then the overworld itself but yet dangerous and all consuming. You have found out a way to incorporate the void into your everyday life. That eldritch must be getting to you.
+research.thec:sceptre.desc=Wands are all well and good but you don't seem to be able to do a great deal with them now, you decide to create a new type of wand, a sceptre, whilst you can't recharge them, at least you can do some cool spells.
+research.thec:xpstore.desc=XP is useful but fragile. You have worked out how to store XP more permanently. Simple

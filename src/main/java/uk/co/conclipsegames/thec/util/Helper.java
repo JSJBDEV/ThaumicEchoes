@@ -35,6 +35,8 @@ public class Helper {
         }
         return false;
     }
+
+
     private static boolean debug = false;
     public static void log(Level logLevel, Object object) { FMLLog.log(thec.modId, logLevel, String.valueOf(object)); }
 
@@ -69,7 +71,14 @@ public class Helper {
         }
         else
         {
+            if(value == 0)
+            {
             nbt.setInteger(tagName,1);
+            }
+            else
+                {
+                    nbt.setInteger(tagName,value);
+                }
         }
 
         stack.setTagCompound(nbt);

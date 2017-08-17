@@ -1,7 +1,9 @@
 package uk.co.conclipsegames.thec.Items;
 
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import uk.co.conclipsegames.thec.Armour.ItemArmour;
 import uk.co.conclipsegames.thec.thec;
 
 import static uk.co.conclipsegames.thec.thec.ichoriumToolMaterial;
@@ -22,6 +24,15 @@ public class ModItems {
         public static ItemBase capIchor;
         public static ItemBase ichorcloth;
         public static ItemBase rodIchor;
+        public static ItemSceptre sceptreDislocation;
+        public static ItemSceptre sceptreUprising;
+        public static ItemSceptre sceptreFreezing;
+        public static ItemArmour ichorhelmet;
+        public static ItemArmour ichorchest;
+        public static ItemArmour ichorleggings;
+        public static ItemArmour ichorboots;
+        public static ItemXPCharm xpcharm;
+
 
         public static void init() {
             ichor = register(new ItemBase("ichor").setCreativeTab(thec.creativeTab));
@@ -30,11 +41,24 @@ public class ModItems {
             ichorAxe = register(new ItemAxe(ichoriumToolMaterial,"ichor_axe").setCreativeTab(thec.creativeTab));
             ichorPickaxe = register(new ItemPickaxe(ichoriumToolMaterial,"ichor_pickaxe").setCreativeTab(thec.creativeTab));
             ichorShovel = register(new ItemShovel(ichoriumToolMaterial,"ichor_shovel").setCreativeTab(thec.creativeTab));
+
             bhc = register(new ItemBlackHoleCharm("item_bhc").setCreativeTab(thec.creativeTab));
             ultraDenseGem = register(new ItemBase("ultradensegem").setCreativeTab(thec.creativeTab));
+
+            xpcharm = register(new ItemXPCharm("xpcharm").setCreativeTab(thec.creativeTab));
+
             capIchor = register(new ItemBase("ichor_cap").setCreativeTab(thec.creativeTab));
             ichorcloth = register(new ItemBase("ichor_cloth").setCreativeTab(thec.creativeTab));
             rodIchor = register(new ItemBase("ichor_rod").setCreativeTab(thec.creativeTab));
+
+            sceptreDislocation = register(new ItemSceptre("sceptre_d").setCreativeTab(thec.creativeTab));
+            sceptreUprising = register(new ItemSceptre("sceptre_u").setCreativeTab(thec.creativeTab));
+            sceptreFreezing = register(new ItemSceptre("sceptre_f").setCreativeTab(thec.creativeTab));
+
+            ichorhelmet = register(new ItemArmour(thec.ichorclothArmorMaterial, EntityEquipmentSlot.HEAD,"ichor_helmet").setCreativeTab(thec.creativeTab));
+            ichorchest = register(new ItemArmour(thec.ichorclothArmorMaterial, EntityEquipmentSlot.CHEST,"ichor_chest").setCreativeTab(thec.creativeTab));
+            ichorleggings = register(new ItemArmour(thec.ichorclothArmorMaterial, EntityEquipmentSlot.LEGS,"ichor_leggings").setCreativeTab(thec.creativeTab));
+            ichorboots = register(new ItemArmour(thec.ichorclothArmorMaterial, EntityEquipmentSlot.FEET,"ichor_boots").setCreativeTab(thec.creativeTab));
         }
 
 
@@ -58,6 +82,15 @@ public class ModItems {
             }
             if (item instanceof ItemBlackHoleCharm) {
                 ((ItemBlackHoleCharm)item).registerItemModel(item);
+            }
+            if (item instanceof ItemSceptre) {
+                ((ItemSceptre)item).registerItemModel(item);
+            }
+            if (item instanceof ItemArmour) {
+                ((ItemArmour)item).registerItemModel(item);
+            }
+            if (item instanceof ItemXPCharm) {
+                ((ItemXPCharm)item).registerItemModel(item);
             }
 
             return item;
