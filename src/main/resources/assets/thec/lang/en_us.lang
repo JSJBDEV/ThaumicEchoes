@@ -2,21 +2,21 @@
 itemGroup.thec=Thaumic Echoes
 
 #items
-item.ichor.name=Ichor
-item.ichorium.name=Ichorium
-item.ichor_pickaxe.name=Ichorium Pickaxe
-item.ichor_shovel.name=Ichorium Shovel
-item.ichor_axe.name=Ichorium Axe
-item.ichor_sword.name=Ichorium Sword
-item.ichor_cap.name=Ichorium Cap
-item.ichor_cloth.name=Ichorcloth
-item.ichor_rod.name=Ichorcloth Strapped Silverwood Rod
-item.sceptre_d.name=Sceptre of Dislocation
-item.sceptre_u.name=Sceptre of Uprising
-item.ichor_helmet.name=Ichorcloth Cowl
-item.ichor_chest.name=Ichorcloth Robes
-item.ichor_leggings.name=Ichorcloth Grieves
-item.ichor_boots.name=Ichorcloth Footfalls
+item.thec:ichor.name=Ichor
+item.thec:ichorium.name=Ichorium
+item.thec:ichor_pickaxe.name=Ichorium Pickaxe
+item.thec:ichor_shovel.name=Ichorium Shovel
+item.thec:ichor_axe.name=Ichorium Axe
+item.thec:ichor_sword.name=Ichorium Sword
+item.thec:ichor_cap.name=Ichorium Cap
+item.thec:ichor_cloth.name=Ichorcloth
+item.thec:ichor_rod.name=Ichorcloth Strapped Silverwood Rod
+item.thec:sceptre_d.name=Sceptre of Dislocation
+item.thec:sceptre_u.name=Sceptre of Uprising
+item.thec:ichor_helmet.name=Ichorcloth Cowl
+item.thec:ichor_chest.name=Ichorcloth Robes
+item.thec:ichor_leggings.name=Ichorcloth Grieves
+item.thec:ichor_boots.name=Ichorcloth Footfalls
 
 wand.rod.ichorcloth=Ichorcloth Strapped Silverwood
 wand.cap.ichorium=Ichorium
@@ -26,7 +26,7 @@ item.ultradensegem.name=Ultra Dense Gem
 item.xpcharm.name=Charm Of XP Storage
 
 #blocks
-tile.eladder.name=Ethereal Ladder Block
+tile.thec:eladder.name=Ethereal Ladder Block
 
 #researches
 research.thec:ichor.title=[TEcho] Ichor

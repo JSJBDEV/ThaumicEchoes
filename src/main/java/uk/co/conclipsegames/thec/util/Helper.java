@@ -85,6 +85,13 @@ public class Helper {
         stack.setTagCompound(nbt);
     }
     
+    public static void changeDoubleTag(ItemStack stack, String tagName, double value)
+    {
+        NBTTagCompound nbt = stack.hasTagCompound() ? stack.getTagCompound() : new NBTTagCompound();
+        nbt.setDouble(tagName,value);
+        stack.setTagCompound(nbt);
+    }
+    
     public static void changeBoolTag(ItemStack stack, String tagName, Boolean value)
     {
         NBTTagCompound nbt;
