@@ -21,24 +21,13 @@ import java.util.List;
 /**
  * Created by James on 06/08/2017.
  */
-public class ItemBlackHoleCharm extends Item implements ItemModelProvider {
+public class ItemBlackHoleCharm extends Item {
     protected String name;
     private boolean isOn = false;
 
     public ItemBlackHoleCharm(String name) {
         this.name = name;
         setUnlocalizedName(name);
-        setRegistryName(name);
-    }
-    @Override
-    public void registerItemModel(Item item) {
-        thec.proxy.registerItemRenderer(this, 0, name);
-    }
-
-    @Override
-    public ItemBlackHoleCharm setCreativeTab(CreativeTabs tab) {
-        super.setCreativeTab(tab);
-        return this;
     }
 
     @Override
@@ -65,8 +54,6 @@ public class ItemBlackHoleCharm extends Item implements ItemModelProvider {
         }
         return super.onItemRightClick(p_onItemRightClick_1_, player, hand);
     }
-
-
 
     @Override
     public void onUpdate(ItemStack item, World world, Entity player, int p_onUpdate_4_, boolean p_onUpdate_5_) {
@@ -99,6 +86,4 @@ public class ItemBlackHoleCharm extends Item implements ItemModelProvider {
             }
         }
     }
-
-
 }

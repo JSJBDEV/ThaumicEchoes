@@ -2,40 +2,40 @@
 itemGroup.thec=Thaumic Echoes
 
 #items
-item.thec:ichor.name=Ichor
-item.thec:ichorium.name=Ichorium
-item.thec:ichor_pickaxe.name=Ichorium Pickaxe
-item.thec:ichor_shovel.name=Ichorium Shovel
-item.thec:ichor_axe.name=Ichorium Axe
-item.thec:ichor_sword.name=Ichorium Sword
-item.thec:ichor_cap.name=Ichorium Cap
-item.thec:ichor_cloth.name=Ichorcloth
+item.thec:ichor.name=Ихор
+item.thec:ichorium.name=Ихорий
+item.thec:ichor_pickaxe.name=Ихориевая кирка
+item.thec:ichor_shovel.name=Ихориевая лопата
+item.thec:ichor_axe.name=Ихориевый топор
+item.thec:ichor_sword.name=Ихоровый меч
+item.thec:ichor_cap.name=Ихоровый наконечник
+item.thec:ichor_cloth.name=Ихориевая ткань
 item.thec:ichor_rod.name=Ichorcloth Strapped Silverwood Rod
-item.thec:sceptre_d.name=Sceptre of Dislocation
-item.thec:sceptre_u.name=Sceptre of Uprising
-item.thec:ichor_helmet.name=Ichorcloth Cowl
-item.thec:ichor_chest.name=Ichorcloth Robes
-item.thec:ichor_leggings.name=Ichorcloth Grieves
-item.thec:ichor_boots.name=Ichorcloth Footfalls
+item.thec:sceptre_d.name=Скипетр дислокации
+item.thec:sceptre_u.name=Скипетр восхождения
+item.thec:ichor_helmet.name=Ихориевый капюшон
+item.thec:ichor_chest.name=Ихориевая мантия
+item.thec:ichor_leggings.name=Ихориевые поножи
+item.thec:ichor_boots.name=Ихориевые ботинки
 
-wand.rod.ichorcloth=Ichorcloth Strapped Silverwood
-wand.cap.ichorium=Ichorium
+wand.rod.ichorcloth=Ихорием обвязанное серебрянное дерево
+wand.cap.ichorium=Ихорий
 
-item.thec:item_bhc.name=Black Hole Charm
-item.thec:ultradensegem.name=Ultra Dense Gem
-item.thec:xpcharm.name=Charm Of XP Storage
+item.thec:item_bhc.name=Амулет черной дыры
+item.thec:ultradensegem.name=Супер-плотный кристал
+item.thec:xpcharm.name=Амулет хранения опыта
 
 #blocks
-tile.thec:eladder.name=Ethereal Ladder Block
+tile.thec:eladder.name=Эфирный лестничный блок
 
 #researches
-research.thec:ichor.title=[TEcho] Ichor
-research.thec:ichorium.title=[TEcho] Ichorium
+research.thec:ichor.title=[TEcho] Ихор
+research.thec:ichorium.title=[TEcho] Ихорий
 research.thec:eladder.title=[TEcho] Ethereal Ladder Block
-research.thec:ichorcloth.title=[TEcho] Ichorcloth
-research.thec:blackhole.title=[TEcho] Void Hole Theory
-research.thec:sceptre.title=[TEcho] Sceptres
-research.thec:xpstore.title=[TEcho] XP Storage
+research.thec:ichorcloth.title=[TEcho] Ихориевая ткань
+research.thec:blackhole.title=[TEcho] Теория Путотной Дыры
+research.thec:sceptre.title=[TEcho] Скипетры
+research.thec:xpstore.title=[TEcho] Хранилище опыта
 
 research.thec:ichor.desc=ichor; "the liquid which flows through the veins of the gods" is now a reality..a mortals to obtain. the material you have created seems to both exude great heat but also freeze your hands, its power...could be infinite
 research.thec:ichorium.desc=so now you have imbued thaumium with your "god-blood", what you have created is...startling. the metal seems unfathomably hard and very deeply imbued with raw magic, what otherworldly tools could you make with this?

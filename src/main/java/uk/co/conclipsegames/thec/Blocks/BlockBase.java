@@ -21,14 +21,4 @@ public class BlockBase extends Block {
         setUnlocalizedName(name);
         setRegistryName(name);
     }
-
-    public void registerItemModel(ItemBlock itemBlock) {
-        thec.proxy.registerItemRenderer(itemBlock, 0, name);
-    }
-
-    @Override
-    public BlockBase setCreativeTab(CreativeTabs tab) {
-        super.setCreativeTab(tab);
-        return this;
-    }
 }

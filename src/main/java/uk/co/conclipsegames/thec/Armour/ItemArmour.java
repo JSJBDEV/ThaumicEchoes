@@ -11,14 +11,13 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
-import uk.co.conclipsegames.thec.Items.ItemModelProvider;
 import uk.co.conclipsegames.thec.Items.ModItems;
 import uk.co.conclipsegames.thec.thec;
 
 /**
  * Created by James on 15/08/2017.
  */
-public class ItemArmour extends ItemArmor implements ItemModelProvider {
+public class ItemArmour extends ItemArmor {
     private String name;
     EntityEquipmentSlot sslot;
     boolean[] wasWearing = new boolean[4];
@@ -29,11 +28,6 @@ public class ItemArmour extends ItemArmor implements ItemModelProvider {
         setUnlocalizedName(name);
         this.name = name;
         this.sslot = slot;
-    }
-
-    @Override
-    public void registerItemModel(Item item) {
-        thec.proxy.registerItemRenderer(this, 0, name);
     }
 
     @Override
@@ -80,9 +74,9 @@ public class ItemArmour extends ItemArmor implements ItemModelProvider {
             {
                 Vec3d target = player.getLookVec().add(player.getPositionVector());
 
-                player.motionX = (target.xCoord - player.posX) * 3F;
-                player.motionY = (target.yCoord - player.posY) * 2F;
-                player.motionZ = (target.zCoord - player.posZ) * 3F;
+                player.motionX = (target.x - player.posX) * 3F;
+                player.motionY = (target.y - player.posY) * 2F;
+                player.motionZ = (target.z - player.posZ) * 3F;
                 player.fallDistance = 0;
             }
 
