@@ -21,9 +21,9 @@ item.thec:ichor_boots.name=Ichorcloth Footfalls
 wand.rod.ichorcloth=Ichorcloth Strapped Silverwood
 wand.cap.ichorium=Ichorium
 
-item.item_bhc.name=Black Hole Charm
-item.ultradensegem.name=Ultra Dense Gem
-item.xpcharm.name=Charm Of XP Storage
+item.thec:item_bhc.name=Black Hole Charm
+item.thec:ultradensegem.name=Ultra Dense Gem
+item.thec:xpcharm.name=Charm Of XP Storage
 
 #blocks
 tile.thec:eladder.name=Ethereal Ladder Block
