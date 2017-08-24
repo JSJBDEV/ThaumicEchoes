@@ -1,6 +1,5 @@
 package uk.co.conclipsegames.thec.Items;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -8,7 +7,6 @@ import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumHand;
@@ -17,12 +15,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
-import uk.co.conclipsegames.thec.thec;
 import uk.co.conclipsegames.thec.util.Helper;
 
 import java.util.List;
-
-import com.mrdimka.hammercore.common.utils.WorldUtil;
 
 /**
  * Created by James on 14/08/2017.
@@ -63,7 +58,8 @@ public class ItemSceptre extends Item
 				if(item.getTagCompound().getInteger("ty") >= 2)
 				{
 					NBTTagCompound nbt = item.getTagCompound();
-					WorldUtil.teleportPlayer((EntityPlayerMP) player, nbt.getInteger("dim"), item.getTagCompound().getDouble("tx"), item.getTagCompound().getDouble("ty"), item.getTagCompound().getDouble("tz"));
+					//WorldUtil.teleportPlayer((EntityPlayerMP) player, nbt.getInteger("dim"), item.getTagCompound().getDouble("tx"), item.getTagCompound().getDouble("ty"), item.getTagCompound().getDouble("tz"));
+					player.setPositionAndUpdate(item.getTagCompound().getDouble("tx"), item.getTagCompound().getDouble("ty"), item.getTagCompound().getDouble("tz"));
 					player.rotationYaw = (float) nbt.getDouble("tyaw");
 					player.rotationPitch = (float) nbt.getDouble("tpitch");
 				}
@@ -89,6 +85,19 @@ public class ItemSceptre extends Item
 			{
 				allentities.get(i).addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 1000, 200));
 				player.removePotionEffect(MobEffects.SLOWNESS);
+				i++;
+			}
+		}
+		if(item.getItem() == ModItems.sceptreHellfire)
+		{
+			BlockPos coords = player.getPosition();
+			List<EntityLiving> allentities = world.getEntitiesWithinAABB(EntityLiving.class, new AxisAlignedBB(coords.getX() - 10, coords.getY() - 10, coords.getZ() - 10, coords.getX() + 15, coords.getY() + 10, coords.getZ() + 10));
+
+			int i = 0;
+			while(i != allentities.size())
+			{
+				allentities.get(i).setFire(10);
+				player.extinguish();
 				i++;
 			}
 		}

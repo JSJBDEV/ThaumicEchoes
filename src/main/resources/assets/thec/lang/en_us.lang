@@ -13,6 +13,8 @@ item.thec:ichor_cloth.name=Ichorcloth
 item.thec:ichor_rod.name=Ichorcloth Strapped Silverwood Rod
 item.thec:sceptre_d.name=Sceptre of Dislocation
 item.thec:sceptre_u.name=Sceptre of Uprising
+item.thec:sceptre_f.name=Sceptre of Frozen Wind
+item.thec:sceptre_h.name=Sceptre of Hellfire
 item.thec:ichor_helmet.name=Ichorcloth Cowl
 item.thec:ichor_chest.name=Ichorcloth Robes
 item.thec:ichor_leggings.name=Ichorcloth Grieves
@@ -24,6 +26,7 @@ wand.cap.ichorium=Ichorium
 item.thec:item_bhc.name=Black Hole Charm
 item.thec:ultradensegem.name=Ultra Dense Gem
 item.thec:xpcharm.name=Charm Of XP Storage
+item.thec:death_tag.name=Death's Shadow Tag (WIP, may not work!)
 
 #blocks
 tile.thec:eladder.name=Ethereal Ladder Block
@@ -36,6 +39,7 @@ research.thec:ichorcloth.title=[TEcho] Ichorcloth
 research.thec:blackhole.title=[TEcho] Void Hole Theory
 research.thec:sceptre.title=[TEcho] Sceptres
 research.thec:xpstore.title=[TEcho] XP Storage
+research.thec:rebirth.title=[TEcho] Theory of Rebirth
 
 research.thec:ichor.desc=ichor; "the liquid which flows through the veins of the gods" is now a reality..a mortals to obtain. the material you have created seems to both exude great heat but also freeze your hands, its power...could be infinite
 research.thec:ichorium.desc=so now you have imbued thaumium with your "god-blood", what you have created is...startling. the metal seems unfathomably hard and very deeply imbued with raw magic, what otherworldly tools could you make with this?
@@ -44,3 +48,4 @@ research.thec:ichorcloth.desc=Not only does your new "ultimate" material work to
 research.thec:blackhole.desc=Ah, the void, many times bigger then the overworld itself but yet dangerous and all consuming. You have found out a way to incorporate the void into your everyday life. That eldritch must be getting to you.
 research.thec:sceptre.desc=Wands are all well and good but you don't seem to be able to do a great deal with them now, you decide to create a new type of wand, a sceptre, whilst you can't recharge them, at least you can do some cool spells.
 research.thec:xpstore.desc=XP is useful but fragile. You have worked out how to store XP more permanently. Simple
+research.thec:rebirth.desc=Today you clarified your infinite existence, if you die, you just wake up again. You decide that this immortality gets boring after a while so you have devised a way to make it more...flashy. The Shadow Tag will continuously change your respawn position to your current position when it is on, time to surprise that creeper!

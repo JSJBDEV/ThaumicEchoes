@@ -1,19 +1,16 @@
 package uk.co.conclipsegames.thec.Items;
 
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
-import uk.co.conclipsegames.thec.thec;
 import uk.co.conclipsegames.thec.util.Helper;
 
 /**
@@ -25,7 +22,6 @@ public class ItemPickaxe extends net.minecraft.item.ItemPickaxe {
 
     public ItemPickaxe(ToolMaterial material, String name) {
         super(material);
-        setRegistryName(name);
         setUnlocalizedName(name);
         this.name = name;
     }

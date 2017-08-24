@@ -4,7 +4,6 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
@@ -12,7 +11,6 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import uk.co.conclipsegames.thec.Items.ModItems;
-import uk.co.conclipsegames.thec.thec;
 
 /**
  * Created by James on 15/08/2017.
@@ -24,7 +22,6 @@ public class ItemArmour extends ItemArmor {
 
     public ItemArmour(ArmorMaterial material, EntityEquipmentSlot slot, String name) {
         super(material, 0, slot);
-        setRegistryName(name);
         setUnlocalizedName(name);
         this.name = name;
         this.sslot = slot;

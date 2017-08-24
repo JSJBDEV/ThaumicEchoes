@@ -1,6 +1,5 @@
 package uk.co.conclipsegames.thec.Items;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
@@ -13,7 +12,6 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
-import uk.co.conclipsegames.thec.thec;
 import uk.co.conclipsegames.thec.util.Helper;
 
 import java.util.List;

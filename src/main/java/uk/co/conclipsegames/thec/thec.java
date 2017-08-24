@@ -4,8 +4,7 @@ package uk.co.conclipsegames.thec;
  * Created by James on 06/08/2017.
  */
 
-import com.mrdimka.hammercore.init.SimpleRegistration;
-
+import com.pengu.hammercore.init.SimpleRegistration;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
@@ -18,14 +17,13 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import uk.co.conclipsegames.thec.Blocks.ModBlocks;
 import uk.co.conclipsegames.thec.Items.ModItems;
 import uk.co.conclipsegames.thec.proxy.CommonProxy;
-import uk.co.conclipsegames.thec.recipe.ModRecipes;
 import uk.co.conclipsegames.thec.thaum.FuserTE;
 import uk.co.conclipsegames.thec.thaum.InfuserTE;
 import uk.co.conclipsegames.thec.thaum.ResearchesTE;
 import uk.co.conclipsegames.thec.thaum.WandsTE;
 import uk.co.conclipsegames.thec.util.Helper;
 
-@Mod(modid = thec.modId, name = thec.name, version = thec.version, acceptedMinecraftVersions = "[1.11.2]", dependencies = "required-after:lostthaumaturgy;required-after:hammercore")
+@Mod(modid = thec.modId, name = thec.name, version = thec.version, acceptedMinecraftVersions = "[1.12]", dependencies = "required-after:lostthaumaturgy;required-after:hammercore")
 public class thec {
 
     public static final String modId = "thec";
@@ -53,15 +51,15 @@ public class thec {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        ModRecipes.init();
         InfuserTE.RegisterInfuser();
         Helper.info("Successfully injected Infuser recipes, init!");
+        FuserTE.RegisterRecipes();
+        Helper.info("I have to do Fuser Recipes in init now?");
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
-        FuserTE.RegisterRecipes();
-        Helper.info("Sneakily injected the Arcane Table recipes.. in postInit!");
+
     }
 
     public static final Item.ToolMaterial ichoriumToolMaterial = EnumHelper.addToolMaterial("ICHORIUM", 20, 9999, 10, 20, 30);

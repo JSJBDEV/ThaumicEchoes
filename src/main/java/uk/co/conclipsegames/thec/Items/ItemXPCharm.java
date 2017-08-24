@@ -1,6 +1,5 @@
 package uk.co.conclipsegames.thec.Items;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -8,7 +7,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
-import uk.co.conclipsegames.thec.thec;
 import uk.co.conclipsegames.thec.util.Helper;
 
 /**
@@ -39,7 +37,7 @@ public class ItemXPCharm extends Item {
             if(player.experienceLevel >= 1)
             {
                 Helper.changeTag(player.getHeldItem(hand),"storedXP",xp+1);
-                player.removeExperienceLevel(1);
+                player.addExperienceLevel(-1);
             }
         }
         return super.onItemRightClick(p_onItemRightClick_1_, player, hand);
