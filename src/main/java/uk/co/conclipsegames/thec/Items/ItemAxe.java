@@ -24,6 +24,7 @@ public class ItemAxe extends net.minecraft.item.ItemPickaxe {
         super(material);
         setUnlocalizedName(name);
         this.name = name;
+
     }
 
     @Override

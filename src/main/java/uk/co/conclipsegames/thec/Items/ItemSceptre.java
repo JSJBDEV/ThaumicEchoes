@@ -101,6 +101,14 @@ public class ItemSceptre extends Item
 				i++;
 			}
 		}
+		if(item.getItem() == ModItems.sceptreBeserk)
+		{
+			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 400, 3));
+			player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST,400,3));
+			player.addPotionEffect(new PotionEffect(MobEffects.HASTE,400,3));
+			player.addPotionEffect(new PotionEffect(MobEffects.ABSORPTION,400,3));
+			player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH,400,3));
+		}
 		
 		return super.onItemRightClick(world, player, hand);
 	}

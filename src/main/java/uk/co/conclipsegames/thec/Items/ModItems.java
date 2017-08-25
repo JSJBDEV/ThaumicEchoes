@@ -28,6 +28,7 @@ public class ModItems {
 	public static ItemSceptre sceptreUprising = new ItemSceptre("sceptre_u");
 	public static ItemSceptre sceptreFreezing = new ItemSceptre("sceptre_f");
 	public static ItemSceptre sceptreHellfire = new ItemSceptre("sceptre_h");
+	public static ItemSceptre sceptreBeserk = new ItemSceptre("sceptre_b");
 
 	public static ItemArmour ichorhelmet = new ItemArmour(thec.ichorclothArmorMaterial, EntityEquipmentSlot.HEAD, "ichor_helmet");
 	public static ItemArmour ichorchest = new ItemArmour(thec.ichorclothArmorMaterial, EntityEquipmentSlot.CHEST, "ichor_chest");

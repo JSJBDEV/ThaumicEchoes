@@ -11,6 +11,6 @@ import uk.co.conclipsegames.thec.Items.ModItems;
 public class ModRecipes {
     public static void init()
     {
-        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.COBBLESTONE,64),ModItems.ultraDenseGem);
+
     }
 }
