@@ -30,24 +30,21 @@ public class ItemBlackHoleCharm extends Item {
 
     @Override
     public ActionResult<ItemStack> onItemRightClick(World p_onItemRightClick_1_, EntityPlayer player, EnumHand hand) {
-        if(!this.isOn)
+
+        if(player.isSneaking())
         {
-            if(!player.isSneaking())
-            {
-                Helper.changeBoolTag(player.getHeldItem(hand),"isOn",true);
-                player.sendMessage(new TextComponentString("The Black Hole Charm is now ON"));
-                player.getHeldItem(hand).addEnchantment(Enchantments.PROTECTION,1);
-                player.getHeldItem(hand).getTagCompound().setInteger("HideFlags",1);
-            }
+            Helper.changeBoolTag(player.getHeldItem(hand),"isOn",true);
+            player.sendMessage(new TextComponentString("The Black Hole Charm is now ON"));
+            player.getHeldItem(hand).addEnchantment(Enchantments.PROTECTION,1);
+            player.getHeldItem(hand).getTagCompound().setInteger("HideFlags",1);
         }
-        if(this.isOn)
+        else
         {
-            if(player.isSneaking())
-            {
-                Helper.changeBoolTag(player.getHeldItem(hand),"isOn",false);
-                player.sendMessage(new TextComponentString("The Black Hole Charm is now OFF"));
-                Helper.resetItem("thec:item_bhc",0,true,player,1);
-            }
+
+            Helper.changeBoolTag(player.getHeldItem(hand),"isOn",false);
+            player.sendMessage(new TextComponentString("The Black Hole Charm is now OFF"));
+            Helper.resetItem("thec:item_bhc",0,true,player,1);
+
 
         }
         return super.onItemRightClick(p_onItemRightClick_1_, player, hand);

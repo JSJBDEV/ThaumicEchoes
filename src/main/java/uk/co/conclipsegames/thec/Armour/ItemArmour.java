@@ -89,9 +89,8 @@ public class ItemArmour extends ItemArmor {
 
         if(armour.getItem() == ModItems.ichorhelmet)
         {
-
-           player.addPotionEffect(new PotionEffect(Potion.getPotionById(16),500,3));
-           player.addPotionEffect(new PotionEffect(Potion.getPotionById(23),500,3));
+           player.addPotionEffect(new PotionEffect(Potion.getPotionById(16),500,3,true,false));
+           player.addPotionEffect(new PotionEffect(Potion.getPotionById(23),500,3,true,false));
 
         }
 
