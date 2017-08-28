@@ -10,20 +10,24 @@ item.thec:ichor_axe.name=Ихориевый топор
 item.thec:ichor_sword.name=Ихоровый меч
 item.thec:ichor_cap.name=Ихоровый наконечник
 item.thec:ichor_cloth.name=Ихориевая ткань
-item.thec:ichor_rod.name=Ichorcloth Strapped Silverwood Rod
+item.thec:ichor_rod.name=Ихорный серебродревесный стержень
 item.thec:sceptre_d.name=Скипетр дислокации
 item.thec:sceptre_u.name=Скипетр восхождения
+item.thec:sceptre_f.name=Скипетр замерзшего ветра
+item.thec:sceptre_h.name=Скипетр адского пламя
+item.thec:sceptre_b.name=Скипетр Берсерка
 item.thec:ichor_helmet.name=Ихориевый капюшон
 item.thec:ichor_chest.name=Ихориевая мантия
 item.thec:ichor_leggings.name=Ихориевые поножи
 item.thec:ichor_boots.name=Ихориевые ботинки
 
-wand.rod.ichorcloth=Ихорием обвязанное серебрянное дерево
+wand.rod.ichorcloth=Ихорный серебродревесный стержень
 wand.cap.ichorium=Ихорий
 
 item.thec:item_bhc.name=Амулет черной дыры
 item.thec:ultradensegem.name=Супер-плотный кристал
 item.thec:xpcharm.name=Амулет хранения опыта
+item.thec:death_tag.name=Теневой тэг смерти (WIP, может не работать!)
 
 #blocks
 tile.thec:eladder.name=Эфирный лестничный блок
@@ -36,11 +40,13 @@ research.thec:ichorcloth.title=[TEcho] Ихориевая ткань
 research.thec:blackhole.title=[TEcho] Теория Путотной Дыры
 research.thec:sceptre.title=[TEcho] Скипетры
 research.thec:xpstore.title=[TEcho] Хранилище опыта
+research.thec:rebirth.title=[TEcho] Теория перерождения
 
-research.thec:ichor.desc=ichor; "the liquid which flows through the veins of the gods" is now a reality..a mortals to obtain. the material you have created seems to both exude great heat but also freeze your hands, its power...could be infinite
-research.thec:ichorium.desc=so now you have imbued thaumium with your "god-blood", what you have created is...startling. the metal seems unfathomably hard and very deeply imbued with raw magic, what otherworldly tools could you make with this?
-research.thec:eladder.desc=How convenient; you have invented a contraption that, when right clicked, will transport on top of it. You reckon there is room for improvement however.
-research.thec:ichorcloth.desc=Not only does your new "ultimate" material work together with metal, it also works with fabric. allowing you to look classy but also have the protection of the gods themselves; if you believe that of course.
-research.thec:blackhole.desc=Ah, the void, many times bigger then the overworld itself but yet dangerous and all consuming. You have found out a way to incorporate the void into your everyday life. That eldritch must be getting to you.
-research.thec:sceptre.desc=Wands are all well and good but you don't seem to be able to do a great deal with them now, you decide to create a new type of wand, a sceptre, whilst you can't recharge them, at least you can do some cool spells.
-research.thec:xpstore.desc=XP is useful but fragile. You have worked out how to store XP more permanently. Simple
+research.thec:ichor.desc=Ихор; «жидкость, которая течет по венам богов», теперь является реальностью ... смертных для получения. Материал, который вы создали, кажется, излучает много тепла, но также замораживает ваши руки, его сила ... может быть бесконечной
+research.thec:ichorium.desc=Вы наполнили таумий своей «божественной кровью», то, что вы создали, поражает. Металл кажется непостижимо тяжелым и очень глубоко проникнут сырой магией... Какие потусторонние инструменты вы могли бы сделать с этим?
+research.thec:eladder.desc=Как удобно; Вы изобрели приспособление, которое при щелчке правой кнопкой, вас перенесет поверх него. Вы считаете, что есть возможности для улучшения.
+research.thec:ichorcloth.desc=Мало того, что ваш новый «ихор» работает вместе с металлом, он также работает с тканями, позволяя вам выглядеть классно, но также иметь защиту самих богов; Если вы верите в это, конечно.
+research.thec:blackhole.desc=Ах, пустота, во много раз больше, чем сам мир, но все же опасный и все потребляющий. Вы нашли способ включить пустоту в свою повседневную жизнь. Тот древний должен попасть к вам.
+research.thec:sceptre.desc=Жезлы - хорошо, но теперь вы, похоже, не можете многое сделать с ними, вы решили создать новый тип палочки: скипетр. В то время как вы не можете их перезаряжать, по крайней мере, вы можете сделать некоторые классные заклинания.
+research.thec:xpstore.desc=XP полезен, но хрупкий. Вы разработали, как хранить XP более постоянно. Просто
+research.thec:rebirth.desc=Сегодня вы разъяснили свое бесконечное существование, если вы умрете, вы просто просыпаетесь снова. Вы решили, что это бессмертие становится скучным через какое-то время, поэтому вы разработали способ сделать его более ... интересным. Теневой тэг будет постоянно менять ваше положение респауна на текущую позицию, когда он включен. Время, чтобы удивить этого крипера!
