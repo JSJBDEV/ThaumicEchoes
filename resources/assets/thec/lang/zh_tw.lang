@@ -1,0 +1,51 @@
+#tab
+itemGroup.thec=魔導迴響
+
+#items
+item.thec:ichor.name=靈液
+item.thec:ichorium.name=靈玉
+item.thec:ichor_pickaxe.name=靈玉鎬
+item.thec:ichor_shovel.name=靈玉鏟
+item.thec:ichor_axe.name=靈玉斧
+item.thec:ichor_sword.name=靈玉劍
+item.thec:ichor_cap.name=靈玉杖端
+item.thec:ichor_cloth.name=靈布
+item.thec:ichor_rod.name=靈布綑綁銀樹杖柄
+item.thec:sceptre_d.name=轉位節杖
+item.thec:sceptre_u.name=攀升節杖
+item.thec:sceptre_f.name=寒風節杖
+item.thec:sceptre_h.name=獄火節杖
+item.thec:ichor_helmet.name=靈布風帽
+item.thec:ichor_chest.name=靈布法袍
+item.thec:ichor_leggings.name=靈布腿甲
+item.thec:ichor_boots.name=靈布足履
+
+wand.rod.ichorcloth=靈布綑綁銀樹杖柄
+wand.cap.ichorium=靈玉
+
+item.thec:item_bhc.name=黑洞符咒
+item.thec:ultradensegem.name=極緻密寶石
+item.thec:xpcharm.name=經驗儲存符咒
+item.thec:death_tag.name=死神的闇影標籤(還在做， 也許不會有作用！)
+
+#blocks
+tile.thec:eladder.name=飄渺之梯方塊
+
+#researches
+research.thec:ichor.title=[魔導迴響] 靈液
+research.thec:ichorium.title=[魔導迴響] 靈玉
+research.thec:eladder.title=[魔導迴響] 飄渺之梯方塊
+research.thec:ichorcloth.title=[魔導迴響] 靈布
+research.thec:blackhole.title=[魔導迴響] 虛空理論
+research.thec:sceptre.title=[魔導迴響] 節杖
+research.thec:xpstore.title=[魔導迴響] 經驗儲存
+research.thec:rebirth.title=[魔導迴響] 重生理論
+
+research.thec:ichor.desc=靈液； 「一種流經神脈的液體」， 現在是一個實際的… 由凡人去取得的物品。 你創造出的材料似乎散發出強大的熱， 而且凍結了你的雙手， 它的力量… 可能是無限的
+research.thec:ichorium.desc=所以現在你已經用你的「神之血」充滿了秘術錠， 而你所創造出了東西真是… 令人吃驚。 這個金屬似乎不可思議地堅固而且非常深刻地被魔法所充滿， 有哪種其他世界的工具能夠像這樣被你所做出來？
+research.thec:eladder.desc=多麼方便； 你發明了一個新奇的裝置， 當對它點擊右鍵時將會傳送到它的上方。 但是你認為還有改進的餘地。
+research.thec:ichorcloth.desc=你的「終極」材料不僅可以使用於金屬上， 還可以使用於布料上。 讓你看起來優雅、別緻， 但它們也有神力庇護自己； 當然如果你相信的話。
+research.thec:blackhole.desc=啊， 虛空， 比原世界大上好幾倍但是卻很危險， 會吞噬一切。 你已經找到一種可將虛空融入你生活的每一天的方法。 那種詭異之物一定會對你產生影響。
+research.thec:sceptre.desc=法杖都很棒， 但是現在你似乎不能使用它們去做很多事情， 你決定去創造一種新的法杖， 一種節杖， 雖然它們不能充能， 但至少你可以做一些很酷的法術。
+research.thec:xpstore.desc=經驗值很有用但非常脆弱。 你已經制定出一個如何更加永久地儲存經驗值的方式。 簡單
+research.thec:rebirth.desc=今天你已闡明了你無限的存在， 倘若你死了， 你只會再次醒來。 這種不朽在一段時間後會變得無聊， 所以你決定發明一種方式讓它更加的… 迅速。當闇影標籤開啟時， 將持續改變你的重生位置成為目前的位置， 是時候來給那些苦力怕驚喜了！
