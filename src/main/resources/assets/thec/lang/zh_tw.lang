@@ -15,31 +15,52 @@ item.thec:sceptre_d.name=轉位節杖
 item.thec:sceptre_u.name=攀升節杖
 item.thec:sceptre_f.name=寒風節杖
 item.thec:sceptre_h.name=獄火節杖
+item.thec:sceptre_b.name=狂暴節杖
 item.thec:ichor_helmet.name=靈布風帽
 item.thec:ichor_chest.name=靈布法袍
 item.thec:ichor_leggings.name=靈布腿甲
 item.thec:ichor_boots.name=靈布足履
+item.thec:op_rod.name=純金賦權無限錠靈布包覆綑綁鑽石鑲嵌黑曜石鍍銀魔法強化銀樹杖柄
+item.thec:op_cap.name=靈玉注入附魔強化元素之音靈液注入起源錠杖端
 
 wand.rod.ichorcloth=靈布綑綁銀樹杖柄
 wand.cap.ichorium=靈玉
+wand.rod.op=純金賦權無限錠靈布包覆綑綁鑽石鑲嵌黑曜石鍍銀魔法強化銀樹
+wand.cap.op=靈玉注入附魔強化元素之音靈液注入起源錠
 
 item.thec:item_bhc.name=黑洞符咒
 item.thec:ultradensegem.name=極緻密寶石
 item.thec:xpcharm.name=經驗儲存符咒
-item.thec:death_tag.name=死神的闇影標籤(還在做， 也許不會有作用！)
+item.thec:death_tag.name=死神的闇影標籤
 
 #blocks
 tile.thec:eladder.name=飄渺之梯方塊
 
 #researches
-research.thec:ichor.title=[魔導迴響] 靈液
-research.thec:ichorium.title=[魔導迴響] 靈玉
-research.thec:eladder.title=[魔導迴響] 飄渺之梯方塊
-research.thec:ichorcloth.title=[魔導迴響] 靈布
-research.thec:blackhole.title=[魔導迴響] 虛空理論
-research.thec:sceptre.title=[魔導迴響] 節杖
-research.thec:xpstore.title=[魔導迴響] 經驗儲存
-research.thec:rebirth.title=[魔導迴響] 重生理論
+bookapi.lostthaumaturgy:thaumonomicon:techo=魔導迴響
+lt.research_name.ichor=靈液
+lt.research_text.ichor=[魔導迴響] 神之血， 已經透漏太多了
+
+lt.research_name.ichorium=靈玉
+lt.research_text.ichorium=[魔導迴響] 這是鐵嗎？
+
+lt.research_name.eladder=飄渺之梯方塊
+lt.research_text.eladder=[魔導迴響] 您已經到達您的目的地
+
+lt.research_name.ichorcloth=靈布
+lt.research_text.ichorcloth=[魔導迴響] 沒有其他浸過的布料是這般有幫助的
+
+lt.research_name.blackhole=虛空理論
+lt.research_text.blackhole=[魔導迴響] 我的天呀
+
+lt.research_name.sceptre=節杖
+lt.research_text.sceptre=[魔導迴響] 這些「還」不是法杖聚焦…
+
+lt.research_name.xpstore=經驗儲存
+lt.research_text.xpstore=[魔導迴響] 誰還想帶著無用的經驗瓶？
+
+lt.research_name.rebirth=重生理論
+lt.research_text.rebirth=[魔導迴響] 有某隻鳥浮現在腦中…
 
 research.thec:ichor.desc=靈液； 「一種流經神脈的液體」， 現在是一個實際的… 由凡人去取得的物品。 你創造出的材料似乎散發出強大的熱， 而且凍結了你的雙手， 它的力量… 可能是無限的
 research.thec:ichorium.desc=所以現在你已經用你的「神之血」充滿了秘術錠， 而你所創造出了東西真是… 令人吃驚。 這個金屬似乎不可思議地堅固而且非常深刻地被魔法所充滿， 有哪種其他世界的工具能夠像這樣被你所做出來？
