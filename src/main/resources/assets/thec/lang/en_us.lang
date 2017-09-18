@@ -20,27 +20,47 @@ item.thec:ichor_helmet.name=Ichorcloth Cowl
 item.thec:ichor_chest.name=Ichorcloth Robes
 item.thec:ichor_leggings.name=Ichorcloth Grieves
 item.thec:ichor_boots.name=Ichorcloth Footfalls
+item.thec:op_rod.name=prime golden empowered infinity ingot encased ichorcloth strapped diamond studded obsidian plated silver magically reinforced silverwood rod
+item.thec:op_cap.name=Ichorium infused enchanted enhanced elementally sound ichor infused primordial ingot cap
 
 wand.rod.ichorcloth=Ichorcloth Strapped Silverwood
 wand.cap.ichorium=Ichorium
+wand.rod.op=prime golden empowered infinity ingot encased ichorcloth strapped diamond studded obsidian plated silver magically reinforced silverwood
+wand.cap.op=Ichorium infused enchanted enhanced elementally sound ichor infused primordial ingot
 
 item.thec:item_bhc.name=Black Hole Charm
 item.thec:ultradensegem.name=Ultra Dense Gem
 item.thec:xpcharm.name=Charm Of XP Storage
-item.thec:death_tag.name=Death's Shadow Tag (WIP, may not work!)
+item.thec:death_tag.name=Death's Shadow Tag
 
 #blocks
 tile.thec:eladder.name=Ethereal Ladder Block
 
 #researches
-research.thec:ichor.title=[TEcho] Ichor
-research.thec:ichorium.title=[TEcho] Ichorium
-research.thec:eladder.title=[TEcho] Ethereal Ladder Block
-research.thec:ichorcloth.title=[TEcho] Ichorcloth
-research.thec:blackhole.title=[TEcho] Void Hole Theory
-research.thec:sceptre.title=[TEcho] Sceptres
-research.thec:xpstore.title=[TEcho] XP Storage
-research.thec:rebirth.title=[TEcho] Theory of Rebirth
+bookapi.lostthaumaturgy:thaumonomicon:techo=Thaumic Echoes
+lt.research_name.ichor=Ichor
+lt.research_text.ichor=[TEcho] God blood, 'nuff said
+
+lt.research_name.ichorium=ichorium
+lt.research_text.ichorium=[TEcho] Is it Ferrous?
+
+lt.research_name.eladder=Ethereal Ladder Block
+lt.research_text.eladder=[TEcho] you have reached you destination
+
+lt.research_name.ichorcloth=Ichorcloth
+lt.research_text.ichorcloth=[TEcho] no other soaked fabric is this beneficial
+
+lt.research_name.blackhole=Void Hole Theory
+lt.research_text.blackhole=[TEcho] Holey Moley
+
+lt.research_name.sceptre=Sceptres
+lt.research_text.sceptre=[TEcho] these aren't wand foci..."yet"
+
+lt.research_name.xpstore=XP Storage
+lt.research_text.xpstore=[TEcho] who wants to carry bootles o' enchanting anyway?
+
+lt.research_name.rebirth=Theory of Rebirth
+lt.research_text.rebirth=[TEcho] A certain bird comes to mind...
 
 research.thec:ichor.desc=ichor; "the liquid which flows through the veins of the gods" is now a reality..a mortals to obtain. the material you have created seems to both exude great heat but also freeze your hands, its power...could be infinite
 research.thec:ichorium.desc=so now you have imbued thaumium with your "god-blood", what you have created is...startling. the metal seems unfathomably hard and very deeply imbued with raw magic, what otherworldly tools could you make with this?
