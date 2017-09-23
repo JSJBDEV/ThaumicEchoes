@@ -41,7 +41,7 @@ bookapi.lostthaumaturgy:thaumonomicon:techo=Thaumic Echoes
 lt.research_name.ichor=Ichor
 lt.research_text.ichor=[TEcho] God blood, 'nuff said
 
-lt.research_name.ichorium=ichorium
+lt.research_name.ichorium=Ichorium
 lt.research_text.ichorium=[TEcho] Is it Ferrous?
 
 lt.research_name.eladder=Ethereal Ladder Block
