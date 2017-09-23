@@ -21,12 +21,6 @@ public class WandsTE {
 
     public static void init()
     {
-        try
-        {
-            Thread.sleep(500L);
-        } catch(Throwable err)
-        {
-        }
     }
     static
     {
